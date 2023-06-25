@@ -1,0 +1,33 @@
+.cloth{
+  width:200px;
+  height:250px;
+  object-fit:cover;
+}
+.container{
+  position:relative;
+  display:flex;
+  width:200px;
+}
+.off{
+  position:absolute;
+  background-color:black;
+  font-family:arial;
+  color:white;
+  padding-top:6px;
+  padding-bottom:6px;
+  padding-left:6px;
+  padding-right:6px;
+  right:0;
+  top:8px;
+}
+.add{
+  position:absolute;
+  background-color:rgba(248, 246, 246, 0.8);
+  display:flex;
+  width:200px;
+  height:80px;
+  justify-content:center;
+  align-items:center;
+  bottom:0;
+  font-size:10px;
+}
